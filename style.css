@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montagu Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9b59b6;
+}
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display-ip, 
+.display-location{
+    font-size: calc(2rem + 1vw);
+    color: white;
+}
+.look-up-btn{
+    border: none;
+    background-color: #353b48;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: opacity 250ms linear;
+}
+.look-up-btn:hover{
+    opacity: 0.8;
+}
